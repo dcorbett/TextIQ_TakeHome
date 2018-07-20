@@ -2,6 +2,8 @@
 
 Create a webapp that allows you to search through articles by keywords
 
+![Document Viewer](demo.png?raw=true "Take Home Assignment")
+
 ## Archtecure
 I chose to use 2 tiers to complete this project. A react frontend run by a node server. I chose to use java dropwizard for the REST midtier. I chose MySQL for the database. Lastly I chose docker for my deployment container so that it can run without issue.
 
