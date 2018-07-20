@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #4a556d;
+}
+
+pre {
+  padding: 1em;
+  background-color: #ccc;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.nav {
+  width: 97%;
+  text-align: center;
+  padding:15px;
+  background-color: #4a556d;
+  color: #fff;
+  font-weight: 600;
+}
+
+.rail {
+  height: 75%;
+  width: 40%;
+  position: absolute;
+  overflow: scroll;
+  background-color: #fff;
+}
+
+.container {
+  float: right;
+  width: 60%;
+}
+
+.container--border-top {
+  border-top-width:3px;
+  border-top-style: solid;
+}
+
+.container--border-right {
+  border-right-width:3px;
+  border-right-style: solid;
+}
+
+.container--border-left {
+  border-left-width:3px;
+  border-left-style: solid;
+}
+
+.container--left{
+  float: left;
+}
+
+.container--right{
+  float: right;
+}
+
+.form--center{
+  margin: 20% 0 0 30%;
+  padding: 20px 0px 40px 60px;
+  max-width: 400px;
+}
+
+.form--white{
+  background-color: white;
+}
+
+.input--title{
+  margin: 20px 0 15px 0;
+}
+
+.article{
+  font-weight: 200;
+  font-size: 15px;
+  text-align: left;
+  padding:20px 10px 20px 20px;
+}
+
+.article:hover{
+  background-color: #5689be;
+}
+
+.article .entry__body{
+  text-overflow: ellipsis;
+  overflow:hidden;
+  white-space: nowrap;
+}
+
+.article .entry__title{
+  font-weight: bold;
+
+}
+
+.article--full{
+  font-weight: 300;
+  font-size: 20px;
+  word-spacing: 5px;
+  line-height: 36px;
+  padding: 30px;
+}
+
+/*specific elements*/
+
+#articleContainer{
+  height:75%;
+  width: 59%;
+  background-color: #fff;
+  position: absolute;
+  overflow: scroll;
+}
+
+#contentButtons{
+  height:18%;
+  width: 79.5%;
+  position: absolute;
+  bottom:0;
+  background-color: #4a556d;
+}
+
+#searchBox{
+  margin:20px 0px 0px 30px;
+  width: 70%;
+  height: 60%;
+}
+
+#send{
+  margin: 18px 0 0 10px;
+  vertical-align: top;
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+}
+
+.button_group{
+  clear: both;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.searchGroup{
+  margin-left: 30%;
+}
+
+button{
+  margin: 5px 10px 0px 10px;
+  width: 7em;
+  height: 2em;
+}

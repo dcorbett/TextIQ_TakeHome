@@ -1,0 +1,13 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 8000
+
+database:
+  driverClass: com.mysql.cj.jdbc.Driver
+  user: root
+  password: testpass
+  #url: jdbc:mysql://db/textiq
+  url: jdbc:mysql://localhost/textiq?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+  properties:
+    useSSL: false
