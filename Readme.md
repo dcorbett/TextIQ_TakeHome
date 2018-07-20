@@ -13,7 +13,7 @@ I have created 4 endpoints which the application will use. The first 3 are used 
     - /search?q=<query>&page=<int> : GET
     - /processDocuments
 
-The article endpoint will display either a paginated list of articles or a the full context of a specific article. The search will return a paginated list of all articles which contain a specific keyword. The processDocuments endpoint parses all of the docs in a specific folder and inserts them in the DB if they are not present.
+The article endpoint will display either a paginated list of articles or a the full context of a specific article. The search will return a paginated list of all articles which contain a specific keyword. The processDocuments endpoint parses all of the docs in a specific folder and inserts them in the DB if they are not present. Running processDocuments is required to populate the database
 
 ## Setup
 This setup requires docker https://docs.docker.com/engine/installation/
@@ -22,6 +22,10 @@ Once you are in the takeHome folder run the follwing to start and stop the proje
 
 To restart the project
     docker-compose down
-    docker-compose up <backend or fullstack>
+    docker-compose up fullstack
 
-to verify its running the webapp runs on http://localhost:18000/test
+to verify its running the webapp runs on http://localhost:18000
+
+This can also be installed locally. It uses MySQL Database and Dropwizard / Gradel for the DB engine. Locally the Frontend and packed end run on ports 3000 and 8000 respectivly
+
+The database schmea is stored in the DB directory under init.sql

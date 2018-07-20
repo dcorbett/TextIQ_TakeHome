@@ -102,7 +102,6 @@ public class DocumentRepository {
                 Integer id = (Integer) map.get("id");
                 String title = (String) map.get("title");
                 String body = (String) map.get("body");
-                body = truncate(body, 100);
                 documentEntities.add(new DocumentEntity(id,title,body));
             }
             return documentEntities;
